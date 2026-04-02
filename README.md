@@ -34,6 +34,8 @@
 Inspired by systems used at organizations like CERN, this platform demonstrates **end-to-end AI + system design + real-time architecture**.
 
 ---
+<img width="1920" height="845" alt="Screenshot 2026-04-02 120017" src="https://github.com/user-attachments/assets/b488082d-99b9-4175-a6d3-fad45bb10ca3" />
+
 
 ## 🧠 Core Features
 
@@ -82,3 +84,76 @@ Inspired by systems used at organizations like CERN, this platform demonstrates 
 ---
 
 ## 🧱 System Architecture
+Frontend (React + Mapbox GL JS)
+│
+▼
+Backend (Node.js + Express)
+│
+├── REST APIs
+├── WebSocket Server (Real-time engine)
+├── Simulation Engine
+│
+▼
+AI/ML Services (Python)
+│
+├── Forecasting Models
+├── Risk Prediction
+├── Recommendation Engine
+└── RAG Assistant
+│
+▼
+Database Layer
+(PostgreSQL + PostGIS + Redis)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React + Vite + TypeScript  
+- Tailwind CSS  
+- Framer Motion  
+- Mapbox GL JS  
+- Recharts  
+
+### Backend
+- Node.js  
+- Express.js  
+- WebSockets (Socket.io)  
+
+### AI / ML
+- Python  
+- TensorFlow / PyTorch / Scikit-learn  
+- LSTM, ARIMA, Prophet  
+- LLM + RAG  
+
+### Database
+- PostgreSQL + PostGIS  
+- Redis  
+
+### DevOps
+- Docker  
+- CI/CD (GitHub Actions)  
+- AWS / GCP / Render  
+
+---
+
+## 🎯 Why This Project Stands Out (CERN Alignment)
+
+This project directly reflects real-world responsibilities of ML engineers working on large-scale systems:
+
+- Distributed systems & real-time pipelines  
+- Federated and scalable AI architecture  
+- ML model deployment & inference APIs  
+- Data flow management across services  
+- Infrastructure monitoring & anomaly detection  
+
+---
+
+## ⚡ Getting Started
+
+```bash
+git clone https://github.com/your-username/geomind-ai.git
+cd geomind-ai
+npm install
+npm run dev

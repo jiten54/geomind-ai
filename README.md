@@ -1,20 +1,84 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌍 GeoMind AI  
+### Autonomous Geospatial Intelligence & Infrastructure Prediction Platform  
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Geospatial%20Intelligence-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ML-Time%20Series%20Forecasting-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/System-Real--Time%20Simulation-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stack-Full%20Stack%20AI-orange?style=for-the-badge" />
+</p>
 
-This contains everything you need to run your app locally.
+<p align="center">
+  <b>🚀 Built for CERN-level engineering • FAANG-grade system design • Startup-ready MVP</b>
+</p>
 
-View your app in AI Studio: https://ai.studio/apps/d068eeb1-f647-4b65-b1e7-7624b1e79bc8
+---
 
-## Run Locally
+## 🎥 Demo Preview
 
-**Prerequisites:**  Node.js
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3p6d3Z0Z2Z0d2R6eWJrY3Q4eTR3dHh4eGJzY2Z6Z3B0b2Z5ZzB6aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aD2saalBwwftBIY/giphy.gif" width="800"/>
+</p>
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🌌 Overview
+
+**GeoMind AI** is a production-grade autonomous geospatial intelligence platform designed to:
+
+- Visualize infrastructure in real-time  
+- Predict future demand and risk using AI  
+- Simulate infrastructure scenarios dynamically  
+- Provide intelligent, data-driven recommendations  
+
+Inspired by systems used at organizations like CERN, this platform demonstrates **end-to-end AI + system design + real-time architecture**.
+
+---
+
+## 🧠 Core Features
+
+### 🌍 3D Geospatial Intelligence
+- Mapbox GL JS powered 3D visualization  
+- Real-time infrastructure nodes (Stable / Warning / Critical)  
+- Heatmaps + clustering for large-scale systems  
+- Smooth camera transitions (Tesla-style UI)  
+
+---
+
+### 🧠 AI Prediction Engine
+- Time-series forecasting (LSTM, ARIMA, Prophet)  
+- Predict:
+  - Traffic demand  
+  - Infrastructure stress  
+  - Risk levels  
+- Real-time inference APIs  
+
+---
+
+### ⚡ Real-Time Simulation Engine
+- Simulate:
+  - Infrastructure failures  
+  - Demand spikes  
+  - Traffic disruptions  
+- WebSocket-based live updates  
+- Instant UI synchronization  
+
+---
+
+### 📊 Intelligent Recommendation System
+- Route optimization  
+- Resource allocation strategies  
+- Rule-based + ML-driven decisions  
+- RL-ready architecture  
+
+---
+
+### 🤖 AI Assistant (RAG)
+- Ask natural language queries:
+  - “Where should we build next?”  
+  - “Predict next week demand”  
+- Context-aware LLM responses  
+
+---
+
+## 🧱 System Architecture

@@ -1,0 +1,7 @@
+{
+  "name": "GeoMind AI",
+  "description": "Autonomous Geospatial Intelligence & Infrastructure Prediction Platform for real-time infrastructure simulation and AI-driven demand forecasting.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,67 +1,20 @@
-# 🌍 GeoMind AI
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-### Autonomous Geospatial Intelligence Platform
+# Run and deploy your AI Studio app
 
-🚀 A next-generation AI-powered platform for **geospatial analysis, infrastructure monitoring, and predictive intelligence**.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/d068eeb1-f647-4b65-b1e7-7624b1e79bc8
 
-## 🔥 Features
+## Run Locally
 
-* 🌍 Interactive Global Map (Leaflet / Mapbox ready)
-* 📊 Real-time System Monitoring Dashboard
-* ⚡ Simulation Engine (Failure & Demand Spike)
-* 🧠 AI-based Predictive Analytics (Planned)
-* 📡 Live System Logs & Metrics
-* 🎯 Scalable Architecture (React + FastAPI ready)
+**Prerequisites:**  Node.js
 
----
 
-## 🖥️ Preview
-
-![GeoMind Dashboard](./assets/demo.png)
-
----
-
-## 🧠 Tech Stack
-
-* Frontend: React + Vite + TailwindCSS
-* Visualization: Leaflet / Mapbox
-* Backend (Planned): FastAPI
-* AI Models: LSTM / Prophet / ARIMA
-* Real-time: WebSockets
-
----
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/jiten54/geomind-ai.git
-cd geomind-ai
-npm install
-npm run dev
-```
-
----
-
-## 🌟 Vision
-
-To build a **CERN-level intelligent infrastructure system** that can:
-
-* Predict failures
-* Optimize global infrastructure
-* Simulate real-world scenarios
-
----
-
-## 👨‍💻 Author
-
-**Jiten Moni Das**
-🔗 LinkedIn: https://www.linkedin.com/in/jiten-moni-3045b7265/
-🔗 GitHub: https://github.com/jiten54
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
